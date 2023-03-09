@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/CV_CALM_React_Typescript/static/css/main.72a8c264.css",
-    "main.js": "/CV_CALM_React_Typescript/static/js/main.758d91e8.js",
-    "static/js/787.694031d8.chunk.js": "/CV_CALM_React_Typescript/static/js/787.694031d8.chunk.js",
+    "main.css": "/CV_CALM_React_Typescript/static/css/main.c836d7cc.css",
+    "main.js": "/CV_CALM_React_Typescript/static/js/main.ebe4dab2.js",
     "index.html": "/CV_CALM_React_Typescript/index.html",
-    "main.72a8c264.css.map": "/CV_CALM_React_Typescript/static/css/main.72a8c264.css.map",
-    "main.758d91e8.js.map": "/CV_CALM_React_Typescript/static/js/main.758d91e8.js.map",
-    "787.694031d8.chunk.js.map": "/CV_CALM_React_Typescript/static/js/787.694031d8.chunk.js.map"
+    "main.c836d7cc.css.map": "/CV_CALM_React_Typescript/static/css/main.c836d7cc.css.map",
+    "main.ebe4dab2.js.map": "/CV_CALM_React_Typescript/static/js/main.ebe4dab2.js.map"
   },
   "entrypoints": [
-    "static/css/main.72a8c264.css",
-    "static/js/main.758d91e8.js"
+    "static/css/main.c836d7cc.css",
+    "static/js/main.ebe4dab2.js"
   ]
 }
