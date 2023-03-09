@@ -1,4 +1,22 @@
-.color {
-  background-color: brown;
-  color: green;
+html {
+  width: 100%;
+  background-color: orange;
+
+}
+.box-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+.Card-First {
+  width: 80%;
+  background-color: red;
+}
+.box-Card {
+  margin-top: 0px;
+}
+.Card-Component {
+  margin-top: 40px;
 }
