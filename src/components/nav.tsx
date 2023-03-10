@@ -46,7 +46,7 @@ const steps = [
             <a href="#contactComponent">Contacto</a>
         ),
     },
-  ];
+];
 
 const NavComponent = () => {
 
@@ -70,13 +70,6 @@ return (
     <nav className='nav'>
 <div className="box">
     <div className="nav-g">
-        <div><a href="#presentationComponent">Acerca de mi</a></div>
-        <div><a href="#habilidades">Habilidades</a></div>
-        <div><a href="#experiencia">Experiencia</a></div>
-        <div><a href="#educacion">Educación</a></div>
-        <div><a href="#portafolio">Portafolio</a></div>
-        <div><a href="#certificado">Certificados</a></div>
-        <div><a href="#contacto">Contacto</a></div>
     </div>
 </div>
 </nav>
