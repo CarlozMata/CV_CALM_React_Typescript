@@ -1,22 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html {
   width: 100%;
-  background-color: orange;
-
+  scroll-behavior: smooth;
 }
-.box-container {
+.box-components {
   display: flex;
   justify-content: center;
   justify-items: center;
   align-items: center;
   align-content: center;
+  background-color: #edf2f7;
 }
 .Card-First {
-  width: 80%;
-  background-color: red;
+  max-width: 1000px;
+  min-width: 400px;
+  background-color: #edf2f7;
 }
 .box-Card {
   margin-top: 0px;
 }
 .Card-Component {
+  display: flex;
+  flex-direction: column;
+  flex-direction: horizontal;
   margin-top: 40px;
+}
+section {
+  display: flex;
+  width: 100%;
+  //  background-color: rgb(170, 255, 212);
+  flex-direction: column;
+  text-align: justify;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+.div {
+  //  background-color: aqua;
+  width: 90%;
 }

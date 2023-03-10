@@ -1,0 +1,23 @@
+.div-Steps {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.div-Steps-Box {
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+@media (max-width: 1300px) {
+  .Steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
