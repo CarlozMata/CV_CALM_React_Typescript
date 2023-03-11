@@ -32,7 +32,7 @@ const PresentationComponent = () => {
                     xxl: 220,
                   }}
                   icon={<AntDesignOutlined />}
-                  src="https://carlozmata.com/img/mifoto.png"
+                  src="../styles/img/mifoto.png"
                 />
               </div>
               <div>

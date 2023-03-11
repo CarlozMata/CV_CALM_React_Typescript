@@ -18,7 +18,7 @@ const CvContainer = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 300); // 1000 milisegundos = 1 segundo
+    }, 500); // 1000 milisegundos = 1 segundo
   }, []);
 
   return (

@@ -15,7 +15,7 @@ const CertificatesComponent = () => {
           id="certificatesComponent"
         >
           <section>
-            <div className="box">
+            <div className="div">
               <h2>Certificados Profesionales</h2>
               <div className="certifications-g">
                 <div className="certifications-box">

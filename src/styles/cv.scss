@@ -20,9 +20,6 @@ html {
   min-width: 400px;
   background-color: #edf2f7;
 }
-.box-Card {
-  margin-top: 0px;
-}
 .Card-Component {
   display: flex;
   flex-direction: column;
@@ -32,13 +29,13 @@ html {
 section {
   display: flex;
   width: 100%;
-  //  background-color: rgb(170, 255, 212);
   flex-direction: column;
   text-align: justify;
   justify-content: center;
   justify-items: center;
   align-items: center;
   align-content: center;
+  margin-top: 20px;
 }
 .div {
   //  background-color: aqua;

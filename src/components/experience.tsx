@@ -17,7 +17,7 @@ const ExperienceComponent = () => {
                 <div className="main-info">
                   <img
                     className="img_company"
-                    src="./img/company/FREELANCE.png"
+                    src="../styles/img/company/FREELANCE.png"
                     alt="Logotipo IMO"
                   />
                   <h3>
@@ -46,7 +46,7 @@ const ExperienceComponent = () => {
                 <div className="main-info">
                   <img
                     className="img_company"
-                    src="./img/company/IMO.png"
+                    src="../styles/img/company/IMO.png"
                     alt="Logotipo IMO"
                   />
                   <h3>
@@ -89,7 +89,7 @@ const ExperienceComponent = () => {
                 <div className="main-info">
                   <img
                     className="img_company"
-                    src="./img/company/LB.png"
+                    src="../styles/img/company/LB.png"
                     alt="Logotipo LB SISTEMAS"
                   />
                   <h3>
@@ -115,7 +115,7 @@ const ExperienceComponent = () => {
                 <div className="main-info">
                   <img
                     className="img_company"
-                    src="./img/company/LARED.png"
+                    src="../styles/img/company/LARED.png"
                     alt="Logotipo LA RED"
                   />
                   <h3>

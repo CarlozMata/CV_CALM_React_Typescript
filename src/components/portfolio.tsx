@@ -26,7 +26,7 @@ const PortfolioComponent = () => {
               <Carousel autoplay>
                 <div>
                   <img
-                    src="https://carlozmata.com/img/portafolios/cv800x430px.jpg"
+                    src="../styles/img/portafolios/cv800x430px.jpg"
                     alt="Imagen 1"
                     style={contentStyle}
                   />
@@ -37,7 +37,7 @@ const PortfolioComponent = () => {
                 </div>
                 <div>
                   <img
-                    src="https://carlozmata.com/img/portafolios/mingos800x430px.jpg"
+                    src="../styles/img/portafolios/mingos800x430px.jpg"
                     alt="Imagen 1"
                     style={contentStyle}
                   />
@@ -50,7 +50,7 @@ const PortfolioComponent = () => {
                 </div>
                 <div>
                   <img
-                    src="https://carlozmata.com/img/portafolios/cerrada800x430px.png"
+                    src="../styles/img/portafolios/cerrada800x430px.png"
                     alt="Imagen 1"
                     style={contentStyle}
                   />
@@ -63,7 +63,7 @@ const PortfolioComponent = () => {
                 </div>
                 <div>
                   <img
-                    src="https://carlozmata.com/img/portafolios/pruebajs800x430px.jpg"
+                    src="../styles/img/portafolios/pruebajs800x430px.jpg"
                     alt="Imagen 1"
                     style={contentStyle}
                   />

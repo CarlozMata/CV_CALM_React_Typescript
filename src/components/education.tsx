@@ -4,13 +4,13 @@ import "../styles/cv.scss";
 
 const data = [
   {
-    avatar: "https://carlozmata.com/img/company/platzi.png",
+    avatar: "../styles/img/company/platzi.png",
     title: "Platzi",
     description:
       "Desarrollo Web, Desarrollo de páginas web, contenido digital/multimedia y recursos informáticos. Enero 2021 - Actualidad 2022",
   },
   {
-    avatar: "https://carlozmata.com/img/company/ieu.png",
+    avatar: "../styles/img/company/ieu.png",
     title: "Universidad IEU",
     description:
       "Ingeniero en Sistemas y Tecnologías de la Información, Tecnología informática/Tecnología de sistemas informáticos. 2013 - 2016",

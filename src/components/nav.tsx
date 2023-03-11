@@ -1,8 +1,7 @@
-import { Card, Divider, Steps } from "antd";
+import { Steps } from "antd";
 import React, { useState } from "react";
 import "../styles/cv.scss";
 import "../styles/scssComponents/nav.scss";
-
 const { Step } = Steps;
 
 const steps = [
