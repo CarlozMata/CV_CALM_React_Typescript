@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/CV_CALM_React_Typescript/static/css/main.5355669a.css",
-    "main.js": "/CV_CALM_React_Typescript/static/js/main.01e64fdb.js",
+    "main.css": "/CV_CALM_React_Typescript/static/css/main.37bb4d18.css",
+    "main.js": "/CV_CALM_React_Typescript/static/js/main.11264c3f.js",
     "index.html": "/CV_CALM_React_Typescript/index.html",
-    "main.5355669a.css.map": "/CV_CALM_React_Typescript/static/css/main.5355669a.css.map",
-    "main.01e64fdb.js.map": "/CV_CALM_React_Typescript/static/js/main.01e64fdb.js.map"
+    "main.37bb4d18.css.map": "/CV_CALM_React_Typescript/static/css/main.37bb4d18.css.map",
+    "main.11264c3f.js.map": "/CV_CALM_React_Typescript/static/js/main.11264c3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.5355669a.css",
-    "static/js/main.01e64fdb.js"
+    "static/css/main.37bb4d18.css",
+    "static/js/main.11264c3f.js"
   ]
 }
