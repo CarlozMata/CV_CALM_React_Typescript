@@ -1,6 +1,7 @@
 import { Card } from "antd";
 import React from "react";
 import "../styles/cv.scss";
+import "../styles/scssComponents/experience.scss";
 
 const ExperienceComponent = () => {
   return (
@@ -13,10 +14,10 @@ const ExperienceComponent = () => {
         >
           <section>
             <div className="div">
-              <div className="experience-g">
-                <div className="main-info">
+              <div className="experience-div">
+                <div className="experience-img">
                   <img
-                    className="img_company"
+                    className=""
                     src="../styles/img/company/FREELANCE.png"
                     alt="Logotipo IMO"
                   />
@@ -26,12 +27,12 @@ const ExperienceComponent = () => {
                     </a>
                   </h3>
                 </div>
-                <div className="position-info">
+                <div className="experience-title">
                   <h4>Desarrollador Web</h4>
                   <h5>Mérida, Yucatán, México.</h5>
                   <h6>Profesional Independiente / Febrero 2022 - Actualidad</h6>
                 </div>
-                <div className="activities">
+                <div className="experience-list">
                   <ul>
                     <li>Presentación de diseños</li>
                     <li>Creación de Sitio Web con HTML, CSS y JavaScript</li>
@@ -43,9 +44,9 @@ const ExperienceComponent = () => {
                     <li>Administración de Sitio Web</li>
                   </ul>
                 </div>
-                <div className="main-info">
+                <div className="experience-img">
                   <img
-                    className="img_company"
+                    className=""
                     src="../styles/img/company/IMO.png"
                     alt="Logotipo IMO"
                   />
@@ -55,12 +56,12 @@ const ExperienceComponent = () => {
                     </a>
                   </h3>
                 </div>
-                <div className="position-info">
+                <div className="experience-title">
                   <h4>Inside Sales Representative</h4>
                   <h5>Mérida, Yucatán, México.</h5>
                   <h6>Jornada completa / agosto 2019 - julio 2022. 3 años</h6>
                 </div>
-                <div className="activities">
+                <div className="experience-list">
                   <ul>
                     <li>Elaboración de Cotizaciones y Propuestas de TI</li>
                     <li>
@@ -86,9 +87,9 @@ const ExperienceComponent = () => {
                     <li>Certificaciones en Marcas: DELL, VMWARE Y VEEAM</li>
                   </ul>
                 </div>
-                <div className="main-info">
+                <div className="experience-img">
                   <img
-                    className="img_company"
+                    className=""
                     src="../styles/img/company/LB.png"
                     alt="Logotipo LB SISTEMAS"
                   />
@@ -98,12 +99,12 @@ const ExperienceComponent = () => {
                     </a>
                   </h3>
                 </div>
-                <div className="position-info">
+                <div className="experience-title">
                   <h4>Inside Sales</h4>
                   <h5>Mérida, Yucatán, México.</h5>
                   <h6>Jornada completa / abril 2019 - julio 2019. 4 meses</h6>
                 </div>
-                <div className="activities">
+                <div className="experience-list">
                   <ul>
                     <li>Prospección de nuevas Cuentas</li>
                     <li>Desarrollo de Cuentas</li>
@@ -112,9 +113,9 @@ const ExperienceComponent = () => {
                     <li>Visita y Llamadas a Clientes</li>
                   </ul>
                 </div>
-                <div className="main-info">
+                <div className="experience-img">
                   <img
-                    className="img_company"
+                    className=""
                     src="../styles/img/company/LARED.png"
                     alt="Logotipo LA RED"
                   />
@@ -124,7 +125,7 @@ const ExperienceComponent = () => {
                     </a>
                   </h3>
                 </div>
-                <div className="position-info">
+                <div className="experience-title">
                   <h4>Inside Sales</h4>
                   <h5>Villahermosa, Tabasco, México.</h5>
                   <h6>
@@ -132,7 +133,7 @@ const ExperienceComponent = () => {
                     2019. 1 año 7 meses
                   </h6>
                 </div>
-                <div className="activities">
+                <div className="experience-list">
                   <ul>
                     <li>Elaboración de Cotizaciones y Propuestas de TI.</li>
                     <li>Interacción con Proveedores y Clientes.</li>
@@ -152,12 +153,14 @@ const ExperienceComponent = () => {
                     <li>Diseños de Marketing para correo y Sitio Web.</li>
                   </ul>
                 </div>
-                <h4>Tech Support</h4>
-                <h5>Villahermosa, Tabasco, México.</h5>
-                <h6>
-                  Jornada completa / agosto 2016 - agosto 2017. 1 año 1 mes
-                </h6>
-                <div className="activities">
+                <div className="experience-title">
+                  <h4>Tech Support</h4>
+                  <h5>Villahermosa, Tabasco, México.</h5>
+                  <h6>
+                    Jornada completa / agosto 2016 - agosto 2017. 1 año 1 mes
+                  </h6>
+                </div>
+                <div className="experience-list">
                   <ul>
                     <li>Atención a Clientes.</li>
                     <li>Administración de Mesa de Servicio.</li>

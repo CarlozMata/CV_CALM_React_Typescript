@@ -1,6 +1,7 @@
 import { Avatar, Card, List } from "antd";
 import React from "react";
 import "../styles/cv.scss";
+import "../styles/scssComponents/education.scss";
 
 const data = [
   {
@@ -31,6 +32,7 @@ const EducationComponent = () => {
               <List
                 itemLayout="horizontal"
                 dataSource={data}
+                className="education-list"
                 renderItem={(item, index) => (
                   <List.Item>
                     <List.Item.Meta
