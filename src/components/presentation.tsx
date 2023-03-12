@@ -56,13 +56,6 @@ const PresentationComponent = () => {
                     <LinkedinOutlined />
                   </a>
                   <a
-                    href="https://twitter.com/CarlozMata"
-                    target="__blank"
-                    className="icons"
-                  >
-                    <TwitterOutlined />
-                  </a>
-                  <a
                     href="https://carlozmata.com/"
                     target="__blank"
                     className="icons"

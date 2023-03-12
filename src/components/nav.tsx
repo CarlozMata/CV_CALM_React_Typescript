@@ -17,9 +17,6 @@ const steps = [
   {
     title: <a href="#certificatesComponent">Certificados</a>,
   },
-  {
-    title: <a href="#contactComponent">Contacto</a>,
-  },
 ];
 
 const NavComponent = () => {

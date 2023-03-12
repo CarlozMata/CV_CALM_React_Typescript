@@ -7,10 +7,10 @@ import ExperienceComponent from "../components/experience";
 import EducationComponent from "../components/education";
 import PortfolioComponent from "../components/portfolio";
 import CertificatesComponent from "../components/certificates";
-import ContactComponent from "../components/contact";
 import "../styles/cv.scss";
 import PresentationComponent from "../components/presentation";
 import NavComponent from "../components/nav";
+import FooterComponent from "../components/footer";
 
 const CvContainer = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -36,7 +36,7 @@ const CvContainer = () => {
             <EducationComponent />
             <PortfolioComponent />
             <CertificatesComponent />
-            <ContactComponent />
+            <FooterComponent />
           </>
         )}
       </Card>
