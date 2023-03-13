@@ -1,25 +1,32 @@
 import { Card, Col, Progress, Row } from "antd";
-import React from "react";
+import React, { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import "../styles/cv.scss";
 import "../styles/scssComponents/skill.scss";
 
 const SkillComponent = () => {
+  //Esto es mi cambio de Idioma
+  useEffect(() => {
+    const lng = navigator.language;
+    i18n.changeLanguage(lng);
+  }, []);
+  const { t, i18n } = useTranslation();
   return (
     <>
       <main>
         <Card
-          title="Habilidades Profesionales"
+          title={t("skill.title")}
           className="Card-Component"
           id="skillsComponent"
         >
           <section>
             <div className="div">
-              <h2>Habilidades</h2>
+              <h2>{t("skill.info.skills")}</h2>
               <div className="progress-box">
                 <Row>
                   <Col xs={24} md={12}>
                     <div>
-                      <p className="skills_tech">HTML5</p>
+                      <p className="skills_tech">{t("skill.info.sk1")}</p>
                       <Progress
                         percent={90}
                         showInfo={false}
@@ -31,7 +38,7 @@ const SkillComponent = () => {
                   </Col>
                   <Col xs={24} md={12}>
                     <div>
-                      <p className="skills_tech">CSS3</p>
+                      <p className="skills_tech">{t("skill.info.sk2")}</p>
                       <Progress
                         percent={70}
                         showInfo={false}
@@ -43,7 +50,7 @@ const SkillComponent = () => {
                   </Col>
                   <Col xs={24} md={12}>
                     <div>
-                      <p className="skills_tech">JavaScript</p>
+                      <p className="skills_tech">{t("skill.info.sk3")}</p>
                       <Progress
                         percent={60}
                         showInfo={false}
@@ -55,7 +62,7 @@ const SkillComponent = () => {
                   </Col>
                   <Col xs={24} md={12}>
                     <div>
-                      <p className="skills_tech">Git</p>
+                      <p className="skills_tech">{t("skill.info.sk4")}</p>
                       <Progress
                         percent={80}
                         showInfo={false}
@@ -67,7 +74,7 @@ const SkillComponent = () => {
                   </Col>
                   <Col xs={24} md={12}>
                     <div>
-                      <p className="skills_tech">Adobe Photoshop CS6</p>
+                      <p className="skills_tech">{t("skill.info.sk5")}</p>
                       <Progress
                         percent={60}
                         showInfo={false}
@@ -79,7 +86,7 @@ const SkillComponent = () => {
                   </Col>
                   <Col xs={24} md={12}>
                     <div>
-                      <p className="skills_tech">Linux</p>
+                      <p className="skills_tech">{t("skill.info.sk6")}</p>
                       <Progress
                         percent={70}
                         showInfo={false}
@@ -91,7 +98,7 @@ const SkillComponent = () => {
                   </Col>{" "}
                   <Col xs={24} md={12}>
                     <div>
-                      <p className="skills_tech">Office 365</p>
+                      <p className="skills_tech">{t("skill.info.sk7")}</p>
                       <Progress
                         percent={95}
                         showInfo={false}
@@ -103,7 +110,7 @@ const SkillComponent = () => {
                   </Col>
                   <Col xs={24} md={12}>
                     <div>
-                      <p className="skills_tech">Wordpress</p>
+                      <p className="skills_tech">{t("skill.info.sk8")}</p>
                       <Progress
                         percent={80}
                         showInfo={false}
@@ -116,12 +123,12 @@ const SkillComponent = () => {
                 </Row>
               </div>
 
-              <h2 className="name-skill">Aptitudes</h2>
+              <h2 className="name-skill">{t("skill.info.aptitudes")}</h2>
               <div className="progress-box">
                 <Row>
                   <Col xs={24} md={12}>
                     <div>
-                      <p className="skills_tech">TeamWork</p>
+                      <p className="skills_tech">{t("skill.info.ap1")}</p>
                       <Progress
                         percent={80}
                         showInfo={false}
@@ -133,7 +140,7 @@ const SkillComponent = () => {
                   </Col>
                   <Col xs={24} md={12}>
                     <div>
-                      <p className="skills_tech">Service Desk</p>
+                      <p className="skills_tech">{t("skill.info.ap2")}</p>
                       <Progress
                         percent={80}
                         showInfo={false}
@@ -145,7 +152,7 @@ const SkillComponent = () => {
                   </Col>
                   <Col xs={24} md={12}>
                     <div>
-                      <p className="skills_tech">TI</p>
+                      <p className="skills_tech">{t("skill.info.ap3")}</p>
                       <Progress
                         percent={70}
                         showInfo={false}
@@ -158,12 +165,12 @@ const SkillComponent = () => {
                 </Row>
               </div>
 
-              <h2 className="name-skill">Idiomas</h2>
+              <h2 className="name-skill">{t("skill.info.languages")}</h2>
               <div className="progress-box">
                 <Row>
                   <Col xs={24} md={24}>
                     <div>
-                      <p className="skills_tech">Español</p>
+                      <p className="skills_tech">{t("skill.info.lang1")}</p>
                       <Progress
                         percent={100}
                         showInfo={false}
@@ -175,7 +182,7 @@ const SkillComponent = () => {
                   </Col>
                   <Col xs={24} md={24}>
                     <div>
-                      <p className="skills_tech">Ingles: B1</p>
+                      <p className="skills_tech">{t("skill.info.lang2")}</p>
                       <Progress
                         percent={50}
                         showInfo={false}

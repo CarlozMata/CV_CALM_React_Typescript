@@ -3,19 +3,33 @@ import {
   GithubOutlined,
   GlobalOutlined,
   LinkedinOutlined,
-  TwitterOutlined,
 } from "@ant-design/icons";
 import { Avatar, Button, Card } from "antd";
-import React from "react";
+import React, { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import "../styles/cv.scss";
 import "../styles/scssComponents/presentation.scss";
 
 const PresentationComponent = () => {
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language; // Obtenemos el idioma actual
+
+  const toggleLanguage = () => {
+    // Alternamos entre los dos idiomas disponibles
+    const nextLanguage = currentLanguage === "en" ? "es" : "en";
+    i18n.changeLanguage(nextLanguage);
+  };
+  //Esto es mi cambio de Idioma
+  useEffect(() => {
+    const lng = navigator.language;
+    i18n.changeLanguage(lng);
+  }, []);
+
   return (
     <>
       <main>
         <Card
-          title="Presentación"
+          title={t("presentation.title")}
           className="Card-Component"
           id="presentationComponent"
         >
@@ -36,8 +50,8 @@ const PresentationComponent = () => {
                 />
               </div>
               <div>
-                <h1>Carlos Alberto López Mata</h1>
-                <p>Front-End Developer Jr</p>
+                <h1>{t("presentation.info.name")}</h1>
+                <p>{t("presentation.info.work")}</p>
               </div>
               <div>
                 <div>
@@ -69,18 +83,22 @@ const PresentationComponent = () => {
                   href="../pdf/CV_Carlos_Mata.pdf"
                   download="CV_Carlos_Mata.pdf"
                 >
-                  Descargar CV
+                  {t("presentation.info.download")}
                 </Button>
                 <a
                   href="../pdf/CV_Carlos_Mata.pdf"
                   download="CV_Carlos_Mata.pdf"
                 >
-                  Descargar CV
+                  {t("presentation.info.download")}
                 </a>
               </div>
-              <div>
-                <a>Traducir a Ingles (Pendiente)</a>
-              </div>
+              <div></div>
+              <Button onClick={toggleLanguage}>
+                {" "}
+                {currentLanguage === "en"
+                  ? "Translate to Spanish"
+                  : "Traducir a Ingles"}
+              </Button>
             </div>
           </section>
         </Card>

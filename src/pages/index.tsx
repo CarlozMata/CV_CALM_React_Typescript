@@ -1,9 +1,7 @@
-import React from 'react'
-import CvContainer from '../containers/cv'
+import React from "react";
+import CvContainer from "../containers/cv";
 
 const CvPages = () => {
-  return (
-    <CvContainer/>
-  )
-}
-export default CvPages
+  return <CvContainer />;
+};
+export default CvPages;
